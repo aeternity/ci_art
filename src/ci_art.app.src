@@ -1,0 +1,13 @@
+%% -*- mode:erlang; erlang-indent-level:4; indent-tabs-mode:nil -*-
+
+{application, ci_art,
+ [
+  {description, "CircleCI API support"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [kernel, stdlib, jsx, inets]},
+  {env, []},
+  {maintainers, ["Ulf Wiger", "Aeternity Core Team"]},
+  {licenses, ["ISC"]},
+  {links, {"Github", "https://github.com/aeternity/ci_art"}}
+ ]}.
